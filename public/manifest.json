@@ -1,7 +1,7 @@
 {
-  "name": "Findto",
-  "short_name": "Findto",
-  "description": "Decentralized Search on Web and AI",
+  "name": "Nid-Search",
+  "short_name": "Nid-Search",
+  "description": "Decentralized Web Search Companion App Of Niddam-Labs",
   "start_url": "/?utm_source=pwa",
   "id": "/?utm_source=pwa",
   "display": "standalone",
