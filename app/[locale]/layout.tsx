@@ -23,16 +23,13 @@ const fontFamily = localFont({
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Findto | Decentralized AI & Web Search',
+    absolute: 'Nid-Search | Decentralized Web Search Companion App Of Niddam-Labs',
     default: 'Findto',
     template: '%s | Findto',
   },
   description:
     'Open source assistant for AI and Web search decentralized. Explore a healthier internet with Findto.',
-  authors: [
-    { name: 'Findto', url: 'https://findto.app' },
-    { name: 'Lucas Menezes', url: 'https://lucasm.dev' },
-  ],
+  
   icons: {
     icon: [
       '/favicon.ico?v=2',
