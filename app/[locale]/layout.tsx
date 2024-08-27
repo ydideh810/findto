@@ -24,15 +24,15 @@ const fontFamily = localFont({
 export const metadata: Metadata = {
   title: {
     absolute: 'Nid-Search | Decentralized Web Search Companion App Of Niddam-Labs',
-    default: 'Findto',
-    template: '%s | Findto',
+    default: 'Nid-Search',
+    template: '%s | Nid-Search',
   },
   description:
     'Open source assistant for AI and Web search decentralized. Explore a healthier internet with Findto.',
   
   icons: {
     icon: [
-      '/favicon.ico?v=2',
+      '/ns.ico?v=2',
       '/icon-192x192.png?v=2',
       '/icon-512x512.png?v=2',
       '/icon-1024x1024.png?v=2',
@@ -43,10 +43,10 @@ export const metadata: Metadata = {
   manifest: '/manifest.json?v=2',
   appleWebApp: {
     capable: true,
-    title: 'Findto',
+    title: 'Nid-Search',
     statusBarStyle: 'black-translucent',
   },
-  applicationName: 'Findto',
+  applicationName: 'Nid-Search',
   themeColor: '#ffffff',
 
   metadataBase: new URL('https://findto.app'),
