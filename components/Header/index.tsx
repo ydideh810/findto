@@ -101,8 +101,7 @@ export default function AppHeader() {
       //  return <IconGlobe />
       case 'AI':
         return <IconSparkle />
-     // case 'Image':
-       // return <IconImage />
+
     //  case 'Videos':
       //  return <IconVideo />
      // case 'Music':
