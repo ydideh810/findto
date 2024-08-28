@@ -3,7 +3,7 @@
 import Style from './Footer.module.css'
 import Link from 'next/link'
 import SvgLogo from '../SvgLogo'
-import { IconGitHub, IconX, IconInstagram } from '../SvgIcons'
+import { IconX, IconInstagram } from '../SvgIcons'
 import { useTranslations } from 'next-intl'
 
 export default function AppFooter() {
