@@ -9,12 +9,12 @@ import Telemetry from '@/components/Telemetry'
 const fontFamily = localFont({
   src: [
     {
-      path: '../../public/fonts/font-light.woff2',
+      path: '../../public/fonts/ZenDots-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/font-bold.woff2',
+      path: '../../public/fonts/ZenDots-Regular.ttf',
       weight: '700',
       style: 'bold',
     },
