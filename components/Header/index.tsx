@@ -7,7 +7,6 @@ import { useRouter, useSearchParams } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 import { useSearch } from '@/contexts/SearchContext'
 import Modal from '@/components/Modal'
-import SvgLogo from '@/components/SvgLogo'
 import {
   IconSettings,
   IconSparkle,
@@ -188,8 +187,7 @@ export default function AppHeader() {
         href="/"
         className={Style.logo}
         onClick={() => refSearchInput.current.focus()}>
-        <SvgLogo />
-        Findto
+        Niddam-Labs
       </Link>
 
       <div className={Style.iconSettings}>
