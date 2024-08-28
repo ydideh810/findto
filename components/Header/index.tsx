@@ -187,7 +187,7 @@ export default function AppHeader() {
         href="/"
         className={Style.logo}
         onClick={() => refSearchInput.current.focus()}>
-        Niddam-Labs
+        Nid-Search
       </Link>
 
       <div className={Style.iconSettings}>
