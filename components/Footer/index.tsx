@@ -23,7 +23,7 @@ export default function AppFooter() {
           </li>
           <li>
             <p>
-              <Link href="/">Findto</Link> © {year}
+              <Link href="/">Niddam-Labs</Link> © {year}
             </p>
           </li>
           <li>
@@ -48,25 +48,17 @@ export default function AppFooter() {
           </li>
           <li>
             <Link
-              href="https://x.com/findtoapp"
+              href="https://x.com/niddam_ai"
               target="_blank"
               rel="noreferrer"
               aria-label="X">
               <IconX />
             </Link>
           </li>
+         
           <li>
             <Link
-              href="https://github.com/lucasm/findto"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="GitHub">
-              <IconGitHub />
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://instagram.com/findtoapp"
+              href="https://instagram.com/niddamai"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram">
