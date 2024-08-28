@@ -16,11 +16,11 @@
   --color-blue: #5cbeff;
   --background-linear-gradient: linear-gradient(
     90deg,
-    #d0abff 0%,
-    #82cdff 20%,
-    #6ef4d0 30%,
-    #fff78d 55%,
-    #ff7c7c 85%
+    #d4d4d4 0%,
+    #dfdfdf 20%,
+    #e0e0e0 30%,
+    #fffdf8 55%,
+    #d4d4d4 85%
   );
   --color-white-translucent: rgba(255, 255, 255, 0.2);
   --color-white-translucent-2: rgba(255, 255, 255, 0.25);
@@ -70,7 +70,7 @@ html[data-theme='dark'] {
 html {
   scroll-behavior: smooth;
   outline-color: var(--color-black);
-  background: var(--background-linear-gradient);
+  background: #660101;
   transition: var(--transition-hover);
   background-size: 110% 200%;
   animation: gradientAnimation 10s ease infinite;
