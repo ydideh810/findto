@@ -52,7 +52,7 @@
 }
 
 html[data-theme='dark'] {
-  --background-linear-gradient: var(--color-dark);
+  --background-linear-gradient: #660101;
   --color-theme-translucent: var(--color-dark);
   --color-bg-white: var(--color-dark-2);
   --color-text-black: #fff;
