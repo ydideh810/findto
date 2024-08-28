@@ -10,29 +10,17 @@ import Modal from '@/components/Modal'
 import SvgLogo from '@/components/SvgLogo'
 import {
   IconSettings,
- // IconGlobe,
- // IconImage,
- // IconVideo,
- // IconMusic,
-//  IconPeople,
   IconSparkle,
-//  IconLocation,
- // IconCart,
   IconCode,
   IconBook,
- // IconBriefcase,
- // IconNews,
- // IconBank,
   IconFeedback,
   IconHeart,
   IconMoon,
   IconSun,
- // IconFinance,
   IconApps,
   IconDownload,
   Icon,
   IconMore,
- // IconGames,
   IconThemeSystem,
 } from '@/components/SvgIcons'
 import { normalizeId } from '@/utils/formats'
@@ -97,37 +85,21 @@ export default function AppHeader() {
   }
   const handleCategoryIcon = (category: string) => {
     switch (category) {
-   //   case 'Web':
-      //  return <IconGlobe />
+  
       case 'AI':
         return <IconSparkle />
 
-    //  case 'Videos':
-      //  return <IconVideo />
-     // case 'Music':
-       // return <IconMusic />
-     // case 'Social':
-     //   return <IconPeople />
-     // case 'Local':
-     //   return <IconLocation />
+
       case 'Academic':
         return <IconBook />
-     // case 'Shopping':
-     //   return <IconCart />
-     // case 'News':
-     //   return <IconNews />
-    //  case 'Job':
-      //  return <IconBriefcase />
+ 
       case 'Code':
         return <IconCode />
      // case 'Legal':
        // return <IconBank />
       case 'Apps':
         return <IconApps />
-     // case 'Finance':
-       // return <IconFinance />
-    //  case 'Games':
-      //  return <IconGames />
+   
       case 'Torrent':
         return <IconDownload />
       default:
