@@ -9,12 +9,12 @@ import Telemetry from '@/components/Telemetry'
 const fontFamily = localFont({
   src: [
     {
-      path: '../../public/fonts/sofachrome.otf',
+      path: '../../public/fonts/ethnocentric.otf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/sofachrome.otf',
+      path: '../../public/fonts/ethnocentric.otf',
       weight: '700',
       style: 'bold',
     },
