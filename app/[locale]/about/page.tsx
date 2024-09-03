@@ -17,7 +17,7 @@ export default function PageAbout() {
     <WebsiteLayout>
       <section className="colors">
         <div className={Style.container + ' ' + Style.miniContainer}>
-          <figure className={Style.icon}></figure>
+        
           <h1>{t('slogan')}</h1>
           <p>
             Nid-Search is a decentralized search assistant. Get control over AI and
