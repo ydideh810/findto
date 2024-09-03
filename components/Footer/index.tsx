@@ -41,11 +41,7 @@ export default function AppFooter() {
           <li>
             <Link href="/terms">{t('terms')}</Link>
           </li>
-          <li>
-            <a href="https://ko-fi.com/findto" target="_blank" rel="noopener">
-              {t('donate')}
-            </a>
-          </li>
+         
           <li>
             <Link
               href="https://x.com/niddam_ai"
