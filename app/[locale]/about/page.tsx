@@ -2,7 +2,6 @@ import Style from '@/layouts/WebsiteLayout/WebsiteLayout.module.css'
 import WebsiteLayout from '@/layouts/WebsiteLayout'
 import { useTranslations } from 'next-intl'
 import CardsFeat from '@/components/CardsFeat'
-import SvgIllustrations from '@/components/SvgIllustrations'
 import Button from '@/components/Button'
 
 export const metadata = {
