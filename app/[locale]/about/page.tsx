@@ -8,7 +8,7 @@ import Button from '@/components/Button'
 export const metadata = {
   title: 'About',
   description:
-    'Findto is a decentralized search assistant. Get control over AI and Web search. Explore a healthy internet.',
+    'Nid-Search is a decentralized search assistant. Get control over AI and Web search. Explore a healthy internet.',
 }
 
 export default function PageAbout() {
@@ -21,7 +21,7 @@ export default function PageAbout() {
           <figure className={Style.icon}></figure>
           <h1>{t('slogan')}</h1>
           <p>
-            Findto is a decentralized search assistant. Get control over AI and
+            Nid-Search is a decentralized search assistant. Get control over AI and
             Web search. Explore a healthy internet.
           </p>
         </div>
@@ -38,7 +38,7 @@ export default function PageAbout() {
               <article>
                 <h2>Take control of algorithms</h2>
                 <p>
-                  Findto puts people in control of the algorithms. Find anything
+                  Nid-Search puts people in control of the algorithms. Find anything
                   switching between diverse sources. More productive and
                   accessible searches than ever.
                 </p>
@@ -67,7 +67,7 @@ export default function PageAbout() {
               <article>
                 <h2>Decentralizing AI and Web search</h2>
                 <p>
-                  The monopoly is dangerous. Findto encourages a truly open
+                  The monopoly is dangerous. Nid-Search encourages a truly open
                   search experience, where people choices matter. We are here
                   building a better internet.
                 </p>
