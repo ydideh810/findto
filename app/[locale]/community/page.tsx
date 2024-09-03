@@ -28,67 +28,39 @@ export default function CommunityPage() {
           <CardsLink />
 
           <article>
-            <h2>Welcome to Findto</h2>
+            <h2>Welcome to Nid-Search</h2>
             <p>
-              Findto is an assistant for decentralized search on Web and AI.
+              Nid-Search is an assistant for decentralized search on Web and AI.
             </p>
 
             <p>
-              We are developing a completely new search experience — free and
+               A completely new search experience — free and
               open source.
             </p>
 
             <p>
-              Our mission is to empower people by introducing a better way to
+              A better way to
               interact with the Web and AI. We're putting the control of search
               algorithms into people's hands.
             </p>
 
-            <p>
-              Why? Because we are dissatisfied. We want to break every monopoly
-              that forces us to have a monocular view of the internet and limits
-              our potential. We believe Findto can offer diverse, innovative
-              ways to explore the internet, and their best services, positively
-              impacting our digital lives.
-            </p>
 
             <p>
               Just as we choose what we eat, wear, date or elect, who said we
-              can't choose our search sources? Yes, we are bold. We deeply
-              believe in the power of choice.
+              can't choose our search sources?
             </p>
 
             <p>
-              Findto is created by passionate individuals like you. Join us and
-              get involved!
+              Nid-Search is inspired by Findto
             </p>
 
             <br></br>
             <br></br>
 
-            <h2>Researching Web and AI</h2>
-            <p>
-              We are researching and are interested in partnerships with
-              services to strengthen technologies of open access, decentralized
-              web, responsible AI, privacy, web accessibility, carbon
-              neutrality, diversity, and digital democracy. Findto is committed
-              to the United Nations 2030 Agenda for sustainable development.
-            </p>
-            <p>If you share this vision, feel free to contribute with us.</p>
+        
             <br></br>
             <br></br>
-            <h2>Code of Conduct</h2>
-            <p>
-              All members of Findto community agree to be kind to each other,
-              following our{' '}
-              <a
-                href="https://www.contributor-covenant.org/version/2/1/code_of_conduct/"
-                target="_blank"
-                rel="noreferrer">
-                Code of Conduct
-              </a>{' '}
-              for common good.
-            </p>
+           
             {/* <h3>* Supporting</h3>
             <p>
               You can choose your favorite platform to support Findto and enjoy exclusive benefits:
