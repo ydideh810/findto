@@ -2,156 +2,203 @@ import Style from '@/layouts/WebsiteLayout/WebsiteLayout.module.css'
 import WebsiteLayout from '@/layouts/WebsiteLayout'
 
 export const metadata = {
-  title: 'Terms of Service',
-  description: 'See how to use Findto, and respect rules for the common good.',
+  title: 'Privacy Policy',
+  description: 'See how Nid-Search respects your privacy and the users data.',
 }
 
-export default function PageTerms() {
+export default function PrivacyPage() {
   return (
     <WebsiteLayout>
       <section className="colors">
         <div className={Style.container}>
-          <h1>Terms of Service</h1>
+          <div className={Style.pageTitle}>
+            <h1>Privacy Policy</h1>
+          </div>
         </div>
       </section>
 
       <section>
         <div className={Style.container}>
           <article>
-            <h2>1. Welcome to Findto</h2>
+            <h2>1. Privacy-First</h2>
 
             <p>
-              Welcome! Findto is an assistant for decentralized search on Web
-              and AI. Findto redirects to third-party external services. All
-              rights reserved to them and their trademarks.
-            </p>
-
-            <p>
-              By accessing services at internet domain https://findto.app
-              ("Findto"), you are agreeing to be bound by these terms, and agree
-              that you are responsible for compliance with all applicable laws
-              of Brazil, and local regulations. If you do not agree, please, do
-              not use or access Findto.
-            </p>
-
-            <h2>2. Use License and Intellectual Property</h2>
-            <p>
-              The source code of Findto software is open source under the MIT
-              License. But some materials are protected by copyright and
-              trademark laws. Findto respects the intellectual property of
-              others and our partners, and expects users to do the same. Findto
-              uses these materials for your convenience. As a user, you must
-              respect the laws that grant only the right to reasonable proper
-              viewing and use.
-            </p>
-            <p>
-              Users have a permission, granted to temporarily, to download one
-              copy of these protected materials on Findto for personal,
-              non-commercial transitory viewing only. This is the grant of a
-              license, not a transfer of title, and under this license you may
-              not:
-            </p>
-            <p>a) modify or copy the materials;</p>
-            <p>b) use the materials for any commercial purpose;</p>
-            <p>
-              c) remove any copyright or other proprietary notations from the
-              materials;
-            </p>
-            <p>
-              d) transfer the materials to another person or "mirror" the
-              materials on any other server.
-            </p>
-            <p>
-              This license shall automatically terminate if you violate any of
-              these restrictions and may be terminated by Findto at any time.
-            </p>
-
-            <h2>3. Disclaimer</h2>
-            <p>
-              The materials on Findto are provided on an "as is" basis. Findto
-              makes no warranties, expressed or implied, and hereby disclaims
-              and negates all other warranties including, without limitation,
-              implied warranties or conditions of merchantability, fitness for a
-              particular purpose, or non-infringement of intellectual property
-              or other violation of rights.
-            </p>
-            <p>
-              Further, Findto does not warrant or make any representations
-              concerning the accuracy, likely results, or reliability of the use
-              of the materials on its service or otherwise relating to such
-              materials or on any sites linked.
-            </p>
-
-            <h2>4. Limitations</h2>
-            <p>
-              In no event shall Findto or its partners be liable for any damages
-              (including, without limitation, damages for loss of data or
-              profit, or due to business interruption) arising out of the use or
-              inability to use the materials on Findto's website, even if Findto
-              or a Findto authorized representative has been notified orally or
-              in writing of the possibility of such damage. Because some
-              jurisdictions do not allow limitations on implied warranties, or
-              limitations of liability for consequential or incidental damages,
-              these limitations may not apply to you.
-            </p>
-
-            <h2>5. Accuracy of Materials</h2>
-            <p>
-              The materials appearing on Findto's service could include
-              technical, typographical, or photographic errors. Findto does not
-              warrant that any of the materials on its service are accurate,
-              complete or current. Findto may make changes to these materials at
-              any time without notice. However Findto does not make any
-              commitment keep the materials updated.
-            </p>
-
-            <h2>6. External Links, Services and APIs</h2>
-            <p>
-              Findto has not reviewed all of services linked and is not
-              responsible for the contents of any third-party services. The
-              inclusion of any external link or data from third-party APIs does
-              not imply endorsement by Findto. Use of any such linked service is
-              at the user's own convenience and risk.
-            </p>
-
-            <h2>7. Modifications</h2>
-            <p>
-              Findto may revise these terms of service at any time without
-              notice. By using Findto, you are agreeing to be bound by the then
-              current version of these terms of service. You might receive an
-              alert on the Findto services informing you of significant changes.
-            </p>
-
-            <h2>8. Governing Law</h2>
-            <p>
-              These terms and conditions are governed by and construed in
-              accordance with the laws of Brazil and you irrevocably submit to
-              the exclusive jurisdiction of the courts in that State or
-              location.
-            </p>
-
-            <h2>9. Violations and Removals</h2>
-
-            <p>
-              All trademarks and external services found on Findto belong to
-              their respective owners and have attribution to the original
-              source. All rights reserved to the owners. Even though for users
-              convenience Findto redirects to the original sources, is
-              impossible to revise the content of each them.
+              Nid-Search are built on privacy! We respect your privacy regarding any
+              information we may collect from you across our services at
+              internet domain <a href="http://Nid-Search.app">http://Nid-Search.app</a>{' '}
+              and communications ("Nid-Search").
             </p>
 
             <p>
-              If you are a legal entity and believe that your intellectual
-              property or service has been used incorrectly on Findto, please,
-              mail to legal@findto.app. As a user, if you are facing law
-              violations or bad conduct by some external service, please,
-              consider report for properly removal.
+              Nid-Search don't store any user searches. Because was designed for it.
+              Nid-Search mission is encourage people choice a healthy internet.
+              External search provider services may collect and store your
+              personal data. Thinking about it, Nid-Search displays a "Privacy level
+              widget" for every search provider, whenever available.
             </p>
 
-            <h2>10. Contact</h2>
-            <p>If you have any questions send an email to legal@findto.app.</p>
+            <p>
+              Nid-Search endorses user control over their data. This privacy policy
+              have accordance with the Brazil General Data Protection Law
+              (LGPD), European Union General Data Protection Regulation (GDPR)
+              and similar legislation's.
+            </p>
 
-            <p>Effective: March 1, 2024.</p>
+            <p>
+              Using Nid-Search you are agreeing to be bound by this privacy policy.{' '}
+            </p>
+
+            <h2>2. Automatically Collected Information</h2>
+
+            <p>
+              Nid-Search automatically collect and store minimal public information
+              (non personal data) with purpose to provide web search
+              functionality. Such as pages that you access, location (country
+              and city), device specs (operational system and browser), internet
+              service provider, IP address, referral URL, exit pages, time
+              stamp, and similar data about its use and interaction.
+            </p>
+
+            <h2>3. Information that You Provide</h2>
+
+            <p>
+              Nid-Search only receives and stores identifiable information (personal
+              data) for those who chose identify themselves. Data that you enter
+              on contact or feedback forms, donations platforms or give in any
+              other way, including but not limited to: your name, email address
+              and phone number.
+            </p>
+
+            <p>
+              Nid-Search only ask for personal information when we truly need it to
+              provide a service to you. We collect it by fair and lawful means,
+              with your knowledge and consent. We also let you know why we're
+              collecting it and how it will be used.
+            </p>
+
+            <h2>4. Information Using</h2>
+
+            <p>Nid-Search uses your information only with the purposes of: </p>
+
+            <p>
+              a) communicate with you to understand your feedback, respond to
+              inquiries and provide requested content;
+            </p>
+
+            <p>
+              b) anonymously analyze the users behavior to personalize and
+              improve general user experience;
+            </p>
+
+            <p>
+              c) detect and prevent activities that be illegal, harmful to
+              people and organizations or violate copyright, intellectual
+              property rights or cybersecurity.
+            </p>
+
+            <h2>5. Cookies and Tracking Technologies</h2>
+
+            <p>
+              Nid-Search and it's related email communications, use cookies and
+              similar technologies, such as cache and local storage, only to
+              execute app functionalities, like to recognize when you view or
+              return to a page.{' '}
+            </p>
+
+            <p>
+              The{' '}
+              <a
+                href="https://www.cloudflare.com/privacypolicy/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Cloudflare
+              </a>
+              ,{' '}
+              <a
+                href="https://support.google.com/analytics/answer/6004245"
+                target="_blank"
+                rel="noopener noreferrer">
+                Google Analytics
+              </a>{' '}
+              and{' '}
+              <a
+                href="https://privacy.microsoft.com/privacystatement"
+                target="_blank"
+                rel="noopener noreferrer">
+                Microsoft Clarity
+              </a>{' '}
+              services are used to optimize Nid-Search, and can put their own
+              cookies in your browser. This policy not covers use of cookies by
+              third parties. Click on the links above to read their privacy
+              policies.{' '}
+            </p>
+
+            <p>
+              If you use an "ad blocker" browser extension or have enabled "do
+              not track" or similar functionality on your browser settings, the
+              cookies maybe are not set.
+            </p>
+
+            <h2>6. Information Sharing</h2>
+
+            <p>
+              Nid-Search do not share any personally identifying information with
+              third-parties. But for technical reasons and unintentionally, it
+              may share with the services listed above and when redirecting the
+              user to a search provider. These entities may have access to
+              personal information to perform their functions.
+            </p>
+
+            <h2>7. Information Store and Protection</h2>
+
+            <p>
+              Nid-Search only retain collected information for as long as necessary
+              to provide to you the requested service. The data we store, we'll
+              protect within commercially acceptable means to prevent
+              unauthorized access. You are free to refuse our request for your
+              personal information, with the understanding that we may be unable
+              to provide you with some of your desired services.
+            </p>
+
+            <h2>8. Opting Out</h2>
+
+            <p>
+              Nid-Search strongly encourages you take a look on third parties
+              privacy policies linked above and of every search provider, to
+              know how this services are handling your data and how proceed to
+              opt out of them individually.
+            </p>
+
+            <h2>9. External Services</h2>
+
+            <p>
+              Nid-Search redirects and contain links to external websites and
+              applications just for your convenience of search functionality.
+              Please be aware, that Nid-Search not endorse, have no control over the
+              content and practices of any third party internet resources, and
+              cannot accept liability or responsibility for their respective
+              privacy policies, that are not operated by Nid-Search. We advised you
+              to review the privacy policy of every them, as possible.
+            </p>
+
+            <h2>10. Changes to This Policy</h2>
+
+            <p>
+              Note that this policy can be revised at any time without notice.
+              However, significant changes will be announced on Nid-Search's
+              communication channels. Your continued use of Nid-Search, following
+              the posting of changes, will be regarded as acceptance of these
+              changes.
+            </p>
+
+            <h2>11. Contact</h2>
+
+            <p>
+              If you have any questions or suggestions, please contact us at
+              email legal@Nid-Search.app. Happy searches!
+            </p>
+
+            <p>Effective: August 1, 2024.</p>
           </article>
         </div>
       </section>
