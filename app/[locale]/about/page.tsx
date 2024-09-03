@@ -31,9 +31,7 @@ export default function PageAbout() {
         <div className={Style.container}>
           <div className={Style.cardDuos}>
             <div>
-              <figure>
-                <SvgIllustrations type="people" color="colorsSvg" />
-              </figure>
+              
 
               <article>
                 <h2>Take control of algorithms</h2>
@@ -46,9 +44,7 @@ export default function PageAbout() {
             </div>
 
             <div>
-              <figure>
-                <SvgIllustrations type="search" color="colorsSvg" />
-              </figure>
+            
 
               <article>
                 <h2>More privacy, less carbon</h2>
@@ -60,9 +56,7 @@ export default function PageAbout() {
             </div>
 
             <div>
-              <figure>
-                <SvgIllustrations type="phone" color="colorsSvg" />
-              </figure>
+          
 
               <article>
                 <h2>Decentralizing AI and Web search</h2>
