@@ -17,8 +17,8 @@ export default function WebsiteLayout({
         <div className={Style.container}>
           <Link href={'/' + locale}>
             <div id="logo" className={Style.logo}>
-              <SvgLogo />
-              Findto
+             {/* <SvgLogo /> */}
+              Nid-Search
             </div>
           </Link>
 
@@ -27,9 +27,9 @@ export default function WebsiteLayout({
               <li>
                 <Link href="/about">{t('about')}</Link>
               </li>
-              <li>
+              {/*<li>
                 <Link href="/community">{t('community')}</Link>
-              </li>
+              </li>*/}
               {/* <li>
                 <Link href="/pro">Pro</Link>
               </li> */}
