@@ -1,7 +1,7 @@
 import Style from './WebsiteLayout.module.css'
 import Link from 'next/link'
 import AppFooter from '@/components/Footer'
-import SvgLogo from '@/components/SvgLogo'
+
 import { useLocale, useTranslations } from 'next-intl'
 
 export default function WebsiteLayout({
@@ -17,7 +17,7 @@ export default function WebsiteLayout({
         <div className={Style.container}>
           <Link href={'/' + locale}>
             <div id="logo" className={Style.logo}>
-             {/* <SvgLogo /> */}
+          
               Nid-Search
             </div>
           </Link>
